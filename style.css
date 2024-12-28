@@ -3,10 +3,11 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    background: #F7F1E1;
 }
 
 header {
-    background: #291c13;
+    background: #dfa98d;
     color: #f2e7df;
     padding: 10px 0;
     position: sticky;
@@ -27,14 +28,14 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #f2e7df;
+    color: #000;
     text-decoration: none;
 }
 
 #hero {
     text-align: center;
     padding: 5px 20px;
-    background: #d1c1b6;
+    background: #f5c3a9;
 }
 
 section {
@@ -49,11 +50,10 @@ h2 {
 }
 
 .project {
-    background: #e6dcd5;
+    background: #f5c3a9;
     padding: 15px;
     margin-bottom: 15px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    border: 1px solid #f5c3a9;
 }
 
 form {
@@ -73,19 +73,20 @@ form input, form textarea, form button {
 }
 
 form button {
-    background: #333;
+    background: #934a4a;
     color: #fff;
     cursor: pointer;
 }
 
+
 form button:hover {
-    background: #555;
+    background: #b75757;
 }
 
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #3b2e25;
+    background: #D8A98D;
     color: #fff;
 }
 
