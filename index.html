@@ -31,29 +31,35 @@
                 <div id="about-text">
                     <p>
                         <!-- Put Connections *** in here, what I've worked on and how that relates to my-->
-                        Hello! I'm an undergrad at UCSC studying Computer Science and Computer Engineering with a concentration in Digital Hardware. I'm interested in improving performance through architecture, accelerators, and compilers.
+                        I'm computer architecture researcher interested in building diverse, specialized architectures, and the addressing the usability challenges they present. I believe in problems first research, and as such I work at any level of the computing stack necessary to achieve this. I'm currently pursuing my PhD at UC Santa Barbara, co-advised by Tim Sherwood and Jonathan Balkind. Before coming to Santa Barbara I did my undergraduate in Computer Science and Computer Engineering at UCSC, where I worked with professors Heiner Litz and Tyler Sorensen on CPU architecture and GPU programming model specifications, respectively. 
                     </p>
-                    <p><a href="CV.pdf" >Here's my CV :)</a></p>
+                    <br>
+                    <p>
+                        In 2025 I received the Dean’s, Chancellor’s, and Steck Family awards for my Senior thesis, Incorrect Path Prediction for Power Throttling Speculative Execution. The Steck Family Award is given to the single best undergraduate thesis at UCSC each year. I am also a recipient of UCSB’s Computer Science department fellowship.
+                    </p>
+                    <br>
+                    <p><a href="CV.pdf" >CV</a></p>
+                    <p><a href="Naomi_Rehman_Thesis_2025.pdf" >Undergraduate Thesis</a></p>
                 </div>
             </div>
         </section>
         <section id="research_projects">
-            <h2>Research Projects</h2>
+            <h2>Past Research Projects</h2>
             <div class="project">
-                <h3>GPU Forward Progress</h3>
-                <p>CPU threads are guaranteed to make forward progress eventually, but many GPUs don't have this guarantee. This makes it much easier to introduce bugs or deadlocks when communicating between threads on a GPU. I'm working with Prof. Tyler Sorensen to investigate this behavior in consumer GPUs.</p>
+                <h3>GPU Subgroup Semantics</h3>
+                <p>Subgroups (i.e. warps in CUDA) are logical groups of threads in the GPU execution hierarchy. While it is informally recognized that they execute in lockstep, specification designers are hesitant to formally say this in the programming model, leaving the semantics of collective subgroup operations underdefined. This work aims to formalize several potential subgroup execution models and evaluate their support on existing systems.</p>
             </div>
             <div class="project">
                 <h3>CPU Frontend Microarchitecture</h3>
-                <p>Datacenter CPUs have very deep and wide pipelines. They rely on branch predictions to overcome control hazards and keep the pipeline full. While modern branch predictors are highly accurate, bad speculation is still an issue, especially for larger applications. I'm working with Prof. Heiner Litz to reduce the side effects of bad speculation, including power and cache pollution, in data-center CPUs.</p>
+                <p>Datacenter CPUs have very deep and wide pipelines. They rely on branch predictions to overcome control hazards and keep the pipeline full. While modern branch predictors are highly accurate, bad speculation is still an issue, especially for larger applications. This project aims to predict when the frontend is producing erroneous instructions and leverage this prediction for a variety of efficiency and performance optimizations.</p>
             </div>
         </section>
         <section id="contact">
             <h2>Contact</h2>
             <div id="contact-text">
-                <p>narehman@ucsc.edu</p>
+                <p>nrehman@ucsb.edu</p>
                 <p><a href="https://www.linkedin.com/in/naomi-rehman/" >LinkedIn</a></p>
-                <p><a href="ttps://github.com/naomirehman1008/portfolio" >Portfolio</a></p>
+                <p><a href="ttps://github.com/naomirehman1008/" >GitHub</a></p>
             </div>
         </section>
         <footer></footer>
